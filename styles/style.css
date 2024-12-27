@@ -2,3 +2,31 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: red;
+}
+
+.sidebar {
+    background-color: skyblue;
+}
+
+main {
+    background-color: yellow;
+}
+
+.content-wrapper {
+    background-color: grey;
+}
+
+.project-cards {
+    background-color: greenyellow;
+}
+
+.announcements {
+    background-color: orange;
+}
+
+.trending {
+    background-color: purple;
+}
