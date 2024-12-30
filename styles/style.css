@@ -15,12 +15,12 @@ body {
 
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 1fr 10fr;
 }
 
 header {
     background-color: white;
-    padding: 25px 75px;
+    padding: 20px 75px;
 
     grid-column: 2;
     grid-row: 1;
@@ -28,8 +28,8 @@ header {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1.5fr;
-    column-gap: 250px;
-    row-gap: 50px;
+    column-gap: 50px;
+    row-gap: 20px;
     align-items: center;
 }
 
@@ -59,9 +59,47 @@ header {
     justify-self: end;
 
     display: grid;
-    grid-template-columns: min-content min-content 120px;
+    grid-template-columns: min-content min-content 1fr;
     column-gap: 40px;
     align-items: center;
+}
+
+.name-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-name {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.hi {
+    font-weight: 800;
+}
+
+.name-at {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.actions-container {
+    justify-self: end;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    column-gap: 30px;
+}
+
+.action-button {
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 15px 50px;
+    border: none;
+    background-color: deepskyblue;
+    border-radius: 50px;
 }
 
 .small-icon {
@@ -75,7 +113,7 @@ header {
 }
 
 .sidebar {
-    background-color: skyblue;
+    background-color: deepskyblue;
 
     grid-column: 1;
     grid-row: 1 / 3;
