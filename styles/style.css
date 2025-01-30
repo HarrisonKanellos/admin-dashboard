@@ -206,7 +206,7 @@ main {
 }
 
 .card-item {
-    background-color: white;
+    background: linear-gradient(to right, #FF7F11 2%, white 2%);
     padding: 30px;
     border-radius: 15px;
 
@@ -281,6 +281,27 @@ main {
     display: grid;
     grid-template-columns: min-content 1fr;
     column-gap: 20px;
+}
+
+.trending-icon {
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.trending-icon[src*="cowboy"] {
+    border-color: #E5B769;
+}
+
+.trending-icon[src*="school"] {
+    border-color: #DB162F;
+}
+
+.trending-icon[src*="tie.svg"] {
+    border-color: #DB3069;
+}
+
+.trending-icon[src*="tie-hat"] {
+    border-color: #FF8552;
 }
 
 .trending-text-wrapper {
