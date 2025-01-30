@@ -178,23 +178,31 @@ nav {
 
 main {
     background-color: lightgrey;
+    padding: 50px 20px;
 
     grid-column: 2;
     grid-row: 2;
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
 
 .content-wrapper {
-    background-color: grey;
+    background-color: rgb(54, 49, 49);
 }
 
-.project-cards {
+.project-section {
     background-color: greenyellow;
+    height: 100%;
 }
 
-.announcements {
+.announcements-section {
     background-color: orange;
+    height: 50%;
 }
 
-.trending {
+.trending-section {
     background-color: purple;
+    height: 50%;
 }
